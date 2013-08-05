@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dip" >
+    <ImageView 
+        android:id="@+id/icon"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_margin="10dip"
+        android:layout_centerVertical="true"
+        />
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/icon"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="5dip"
+        android:textColor="#666666"
+        android:textSize="16sp"
+        android:text="暴走漫画"
+        />
+    <TextView 
+        android:id="@+id/dianping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="点评"
+        android:textColor="#666666"
+        android:textSize="20sp"
+        android:layout_marginRight="10dip"
+        />
+</RelativeLayout>

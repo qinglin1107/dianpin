@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout 
+        android:id="@+id/hasMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        >
+        <ProgressBar 
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:indeterminate="true"
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:textColor="#666666"
+            android:text="正在加载中"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dip"
+            />
+    </LinearLayout>
+    <TextView 
+        android:id="@+id/noMore"
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:text="亲~暂时木有了"
+        android:textColor="#666666"
+        android:gravity="center_vertical"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>
